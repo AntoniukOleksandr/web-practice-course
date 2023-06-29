@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 приклад</title>
+    <style>
+        body{
+            background-color: blanchedalmond;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Курси гри на трембіті</h1>
+        <svg height="200" width="500">
+            <text x="10" y="20" fill="purple" transform="rotate(30 20,40)" style="font-size: 24px;">Обережно! Україномовний контент </text>
+            Ваш браузер не підтримує inline SVG. </svg>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#section1">Цікаві факти про трембіту</a></li>
+            <li><a href="#section2">Українці - неймовірні</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="section1">
+            <h2>Цікаві факти про трембіту</h2>
+            <ul style="margin-top: 10px; margin-left: 15px">
+                <li>Дослідники вважають, що трембіта, це виключно гуцульський інструмент. Але є факти, що бойки також
+                    користувалися трембітами</li>
+                <li>Трембіта, це найдовший музичний інструмент світу, занесена у Книгу рекордів, її довжина від 3 до 8
+                    метрів</li>
+                <li>То є чоловічий інструмент, бо грати на ньому вкрай важко</li>
+                <li>Вона сповіщала про вихід овець на полонину, відхід на той світ чи народження в сім’ї дитини. Нею
+                    запрошували на весілля, з нею колядували</li>
+                <li>Раніше вона була чи не єдиним засобом зв’язку вівчаря з селом</li>
+                <li>Нею ж визначали годину, а найдосвідченіші чабани навіть передбачали погоду. Кажуть, особливо добре
+                    інструмент відчуває дощ та грозу</li>
+                <li>Термін виготовлення трембіти складає близько 2-х років</li>
+                <li>Вік дерева з якої роблять трембіту повинен бути 120—150 років</li>
+                <li>Гуцули кажуть, для виготовлення трембіти треба обрати хорошу смереку, бажано громовицю. Тобто
+                    дерево, в яке влучила блискавка</li>
+                <li>При виготовленні трембіти, загартований стовбур одним ударом потрібно розчахнути навпіл і вручну
+                    витесати серцевину — це теж може тривати рік</li>
+                <li>Діапазон звучання трембіти сягає 2,5 октав, а звук здатний розходитися більше, як на 10 км</li>
+                <li>Вага триметрової трембіти не перевищує якихось 1,5 кг</li>
+                <li>Трембіта користується особливою популярністю на Гуцульщині</li>
+
+            </ul>
+            <figure>
+                <img src="https://24tv.ua/resources/photos/news/201512/638026.jpg?v=1661287153000" alt="Трембіта"
+                    width="500px">
+                <figcaption><em>Трембіта - унікальний український музичний інструмент</em></figcaption>
+            </figure>
+        </section>
+        <section id="section2">
+            <h2>Українці - неймовірні</h2>
+            <p>Як в давнину українці заміняли телефони - показано у відео нижче. <br>Ми ж пропонуємо <b>скористатися зручною формою зворотнього зв'язку</b> для запису на курси</p>
+            <video controls>
+                <source src="trembita.mp4" type="video/mp4">
+                Ваш браузер не підтримує відео.
+            </video>
+        </section>
+        <section id="contact">
+            <h2>Форма контакту</h2>
+            <form>
+                <label for="name">Ім'я:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="birthdate">Дата народження:</label>
+                <input type="date" id="birthdate" name="birthdate">
+
+                <label for="message">Повідомлення:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Надіслати</button>
+            </form>
+        </section>
+        <section id="multimedia">
+            <h2>Мультимедіа</h2>
+
+            <h3>Аудіо</h3>
+            <h4><b>Bria Blessing & ShockolaD - Пісня буде поміж нас</b></h4>
+            <audio controls>
+                <source src="bria_blessing.mp3" type="audio/mpeg">
+                Ваш браузер не підтримує аудіо.
+            </audio>
+
+            <h3>Канвас</h3>
+            <canvas id="myCanvas" width="100" height="0" style="border:30px solid #1668eb;">
+                Ваш браузер не підтримує канвас. Оновіть браузер або скористайтеся іншим.
+            </canvas><br>
+            <canvas id="myCanvas" width="100" height="0" style="border:30px solid #fcfc08;">
+                Ваш браузер не підтримує канвас. Оновіть браузер або скористайтеся іншим.
+            </canvas>
+            
+        </section>
+    </main>
+    <footer>
+        <p>Права захищено &copy; 2023</p>
+    </footer>
+</body>
+
+</html>
